@@ -3,7 +3,7 @@
 %.  Anführungszeichen funktionieren
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\documentclass[a5paper,english, ngerman,parskip=half-]{scrartcl}
+\documentclass[a4paper,english, ngerman,parskip=half-]{scrartcl}
 %\usepackage{libertinus}
 %\usepackage[T1]{fontenc}
 \usepackage{fontspec}
@@ -11,6 +11,14 @@
 \usepackage{microtype}
 \usepackage{geometry}
 \usepackage{babel}
+%\usepackage{ae} %optimale Darstellung von PDFs in Acrobat Reader - Achtung Anführungszeichen verschwinden!
+%\usepackage{graphicx} %Bilder einfach einfügen und skalieren
+%\usepackage{fancybox}%Gestalten von Boxen und Rahmen
+%\usepackage{eurosym}%Eurosymbol ua
+%\usepackage{color} %Farben in Text und Tabellen
+%\usepackage{enumerate}%Erweiterte Möglichkeiten für Aufzählungen
+
+
 \babelprovide[hyphenrules=ngerman-x-latest]{ngerman}
 % \babelprovide ist optional. Man bekommt aber
 % weniger Trennfehler, weit unter 0.1%
@@ -48,4 +56,14 @@ eines \LaTeX"=Dokuments für
 \section{Probeteil 3}
 \input{demotext}
 \section{Test 1}
+Hier kommen Aufzählungen:
+\begin{itemize}
+	\item Teil 1
+	\item Teil 2
+	\item Teil3
+	
+
+\end{itemize}
+
+
 \end{document}
