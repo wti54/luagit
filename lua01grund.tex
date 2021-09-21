@@ -3,20 +3,19 @@
 %.  Anführungszeichen funktionieren
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\documentclass[a4paper,english, ngerman,parskip=half-]{scrartcl}
-%\usepackage{libertinus}
-%\usepackage[T1]{fontenc}
+%\documentclass[a4paper,english, ngerman,parskip=half-]{scrartcl}
+\documentclass[a4paper,english, ngerman,parskip=half-]{scrreprt}
 \usepackage{fontspec}
 \usepackage{libertinus}
 \usepackage{microtype}
 \usepackage{geometry}
 \usepackage{babel}
 %\usepackage{ae} %optimale Darstellung von PDFs in Acrobat Reader - Achtung Anführungszeichen verschwinden!
-%\usepackage{graphicx} %Bilder einfach einfügen und skalieren
-%\usepackage{fancybox}%Gestalten von Boxen und Rahmen
-%\usepackage{eurosym}%Eurosymbol ua
-%\usepackage{color} %Farben in Text und Tabellen
-%\usepackage{enumerate}%Erweiterte Möglichkeiten für Aufzählungen
+\usepackage{graphicx} %Bilder einfach einfügen und skalieren
+\usepackage{fancybox}%Gestalten von Boxen und Rahmen
+\usepackage{eurosym}%Eurosymbol ua
+\usepackage{color} %Farben in Text und Tabellen
+\usepackage{enumerate}%Erweiterte Möglichkeiten für Aufzählungen
 
 
 \babelprovide[hyphenrules=ngerman-x-latest]{ngerman}
@@ -39,6 +38,7 @@
 This is a short introduction into
 the professional typesetting system \TeX.
 \end{abstract}}
+\chapter{Allgemeines}
 \section{Probeteil 1}
 Erste Versuche mit dem Setzen
 eines einem \LaTeX-Dokuments
@@ -55,6 +55,7 @@ eines \LaTeX"=Dokuments für
 \blindtext[2]
 \section{Probeteil 3}
 \input{demotext}
+\chapter{Tests}
 \section{Test 1}
 Hier kommen Aufzählungen:
 \begin{itemize}
